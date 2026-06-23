@@ -107,3 +107,16 @@ YÖK Araştırma Üniversiteleri için boyut puanı kırılımı (kapasite/kalit
 - GTÜ ARU sırası: 2019 **#10** → 2025 **#19**. Kohort büyüklüğü yıllara göre değiştiğinden (5/16/6/6/23) sıralar birebir kıyaslanamaz; araçta Trend sekmesinde uyarı gösterilir.
 
 Kaynaklar: YÖK duyuruları ve basın (Hürriyet/AA/Memurlar.net). Boyut puanı içeren resmî YÖK tabloları (PDF/görsel) elde edilirse ilgili yıllar 2025 gibi tam eklenebilir.
+
+## Düzeltmeler (veri kalitesi)
+
+- **Gaziantep ≠ Gazi:** İsim eşleştirmesi "Gazi" anahtarının "Gaziantep"/"Gaziosmanpaşa" ile karışmasına yol açıyordu; kelime‑sınırı + tam eşleşme kuralıyla düzeltildi. Artık Gazi, Gaziantep ve Tokat Gaziosmanpaşa ayrı kurumlar.
+- **Bozuk satırlar temizlendi:** URAP 2023-2024 ve 2024-2025 dosyalarında "Bu Üniversite … Sıraya Yükselmiştir." biçiminde dipnotlar üniversite satırı gibi tabloya girmişti (metrikleri "-"). Bunlar hem araç verisinden hem yayımlanan CSV'lerden çıkarıldı; yerlerine gerçek üniversiteler geldi.
+- **Bant ortalaması:** QS/THE'de sıralaması bant olarak verilen üniversiteler (ör. 1001-1200) trendde artık **bant ortalamasıyla** çizilir (1100). Açık bantlar (ör. 1401+) yaklaşık değerle gösterilir. Görünen etiket yine resmî bant.
+- **Başlangıç seçimi:** Araç açılışta yalnızca **GTÜ** seçili gelir; diğerlerini kullanıcı ekler.
+
+## Görüntülenme sayacı
+
+Sağ üstte toplam görüntülenme sayısı gösterilir. Statik sitede arka uç olmadığından sayım, ücretsiz/kayıtsız **Abacus** sayaç servisiyle yapılır (`abacus.jasoncameron.dev`, anahtar: `ysakgul.github.io/universite-radar`). Aynı oturumda tekrar yüklemeler bir kez sayılır. Servise erişilemezse sayaç gizlenir, araç normal çalışır.
+
+Gizlilik notu: sayaç bir dış servise istek attığından ziyaretçinin IP'si o servise ulaşır. Daha mahremiyet‑dostu, kalıcı istatistik istersen **GoatCounter** (1 dk ücretsiz kayıt) bağlayabilirim.
