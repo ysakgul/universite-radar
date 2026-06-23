@@ -1,0 +1,15 @@
+﻿rank,rank_display,name,city,overall_score,Academic Reputation,Citations per Faculty,Faculty Student Ratio,Employer Reputation,International Student Ratio,International Faculty Ratio
+465,465,Koç University,Istanbul,25.2,16.6,19.5,47.5,30.7,6.8,32.8
+525,521-530,Sabanci University,Istanbul,n/a,,19.9,36.8,21.4,,48.3
+554,551-560,Bilkent University,Ankara,n/a,18.5,24.8,,23,,58.8
+624,601-650,Middle East Technical University,Ankara,n/a,23.3,19.9,,39.3,,
+658,651-700,Boğaziçi University,Istanbul,n/a,18.6,21.6,,37.6,,
+764,751-800,Istanbul Technical University,Istanbul,n/a,17.6,,,33.1,,
+809,801-1000,Ankara Üniversitesi,Ankara,n/a,,,,,,
+841,801-1000,Hacettepe University,Ankara,n/a,,,,,,
+844,801-1000,Istanbul University,Istanbul,n/a,20.6,,,,,
+1026,1001+,Dokuz Eylul Universitesi,Izmir,n/a,,,,,,
+1029,1001+,EGE UNIVERSITY,İzmir,n/a,,,,,,
+1035,1001+,Gazi Üniversitesi,Ankara,n/a,,,,,,
+1043,1001+,Izmir Institute of Technology (IZTECH),Izmir,n/a,,,,,,
+1186,1001+,Yildiz Technical University,Istanbul,n/a,,,,,,

@@ -89,3 +89,21 @@ Bu klasör, [TR Üniversite Radarı]( ../ ) karşılaştırma aracında kullanı
 ## Kullanım ve haklar
 
 Bu derleme akademik ve karşılaştırma amaçlıdır. Sıralama verilerinin telif ve tüm hakları ilgili yayıncı kuruluşlara (URAP, Times Higher Education, QS Quacquarelli Symonds, YÖK) aittir. Verileri kullanırken lütfen orijinal kaynağa atıf verin.
+
+
+## Güncelleme — QS 2027 (Haziran 2026)
+
+QS World University Rankings **2027** baskısı 18 Haziran 2026'da yayımlandı ve veri setine **tam olarak** eklendi: Türkiye'den 25 üniversite, 6 çekirdek QS göstergesi (Akademik İtibar, İşveren İtibarı, Öğr.Üyesi Başına Atıf, Öğr.Üyesi/Öğrenci, Uluslararası Öğrenci, Uluslararası Öğr.Üyesi), genel puan ve resmî sıra/bant ile. Kaynak: QS resmî verisinin kamuya açık dökümü; `data/QS_2027.csv`.
+
+- GTÜ 2027: resmî bant **#851-900** (2025/26'da 1001-1200'dü) — net yükseliş. Öğr.Üyesi Başına Atıf 40.3 → 49.3, Akademik İtibar 7.0 → 9.1.
+- QS 2027 WUR tablosu yalnızca 6 çekirdek göstergeyle yayımlandığından, "İstihdam Çıktıları", "Uluslararası Araştırma Ağı", "Sürdürülebilirlik" sütunları bu yıl için boştur; araç radarda bu eksenleri 2027'de otomatik gizler.
+
+## Güncelleme — ARU sıralama trendi (çok yıllı)
+
+YÖK Araştırma Üniversiteleri için boyut puanı kırılımı (kapasite/kalite/işbirliği) **yalnızca 2025 baskısında** kamuya açık tablo olarak var. Diğer baskılarda YÖK yalnızca sıralamayı açıkladı (2019 puanları sunum görselindeydi). Bu nedenle:
+
+- Radar yalnızca **2025** için çalışır (tek tam yıl).
+- **Sıralama trendi** için yayımlanan sıralı listeler eklendi: 2018 (ilk 5), 2019 (tam 16), 2022 (ilk 6), 2024 (ilk 6), 2025 (tam 23). Dosyalar: `data/ARU_2018.csv … ARU_2024.csv` (yalnızca sıra; puan sütunları boş = kamuya açık değil).
+- GTÜ ARU sırası: 2019 **#10** → 2025 **#19**. Kohort büyüklüğü yıllara göre değiştiğinden (5/16/6/6/23) sıralar birebir kıyaslanamaz; araçta Trend sekmesinde uyarı gösterilir.
+
+Kaynaklar: YÖK duyuruları ve basın (Hürriyet/AA/Memurlar.net). Boyut puanı içeren resmî YÖK tabloları (PDF/görsel) elde edilirse ilgili yıllar 2025 gibi tam eklenebilir.
